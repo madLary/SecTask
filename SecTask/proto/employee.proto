@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package employee;
+
+service EmployeeDb
+{
+	rpc InsertEmployee (Employee) returns (StatusReply) {}
+	
+	rpc GetList (GetListRequest) returns (stream EmployeeReply) {}
+	
+	rpc GetPostAndLead (Id) returns (PostAndLead) {}
+	
+	rpc SetEmployeePost (Post_Setter) returns (StatusReply) {}
+	
+	rpc SetEmployeeLead (Lead_Setter) returns (StatusReply) {}
+	
+	rpc DeleteEmployee (Id) returns (StatusReply) {}
+	
+}
+
+message Employee
+{
+	int32 ID = 1;
+	string name = 2;
+	string post = 3;
+	int32 lead = 4;
+}
+
+message EmployeeReply
+{
+	int32 ID = 1;
+	string name = 2;
+	string post = 3;
+	string lead = 4;
+}
+
+message GetListRequest
+{
+	string name = 1;
+}
+
+message StatusReply
+{
+	string reply = 1;
+}
+
+message Id
+{
+	int32 ID = 1;
+}
+
+message Post_Setter
+{
+	int32 ID = 1;
+	string data = 2;
+}
+
+message Lead_Setter
+{
+	int32 ID = 1;
+	int32 data = 2;
+}
+
+message PostAndLead
+{
+	string post = 1;
+	string lead = 2;
+}

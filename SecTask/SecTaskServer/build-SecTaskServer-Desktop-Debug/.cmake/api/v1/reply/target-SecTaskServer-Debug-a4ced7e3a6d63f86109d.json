@@ -1,0 +1,660 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "SecTaskServer"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CARES_STATICLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug"
+				},
+				{
+					"path" : "/home/ilya/Qt/SecTask/SecTaskServer/SecTaskServer"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/SecTaskServer_autogen/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/ilya/.local/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtSql"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt6/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "SecTaskServer_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "SecTaskServer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgrpc++.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgrpc++_reflection.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgpr.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgrpc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgrpc++.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libprotoc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libprotobuf-lite.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt6Sql.so.6.2.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt6Network.so.6.2.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgrpc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/ilya/.local/lib/libgpr.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_seed_sequences.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_pool_urbg.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_randen.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_randen_hwaes.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_randen_hwaes_impl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_randen_slow.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_platform.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_internal_seed_material.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_seed_gen_exception.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libupb_collections_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libupb_json_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libupb_textformat_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libutf8_range_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libupb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libre2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_random_distributions.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libcares.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libaddress_sorting.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_marshalling.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_reflection.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_config.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_program_name.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_private_handle_accessor.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_commandlineflag.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_flags_commandlineflag_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_statusor.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_status.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_check_op.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_leak_check.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_die_if_null.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_conditions.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_message.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_strerror.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_nullguard.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_examine_stack.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_format.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_proto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_log_sink_set.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_sink.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_entry.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_initialize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_internal_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_cordz_info.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_cord_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_cordz_functions.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_cordz_handle.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_crc_cord_state.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_crc32c.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_crc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_crc_cpu_detect.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_low_level_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_kernel_timeout_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_time_zone.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libutf8_validity.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_string_view.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/ilya/.local/lib/libabsl_log_severity.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SecTaskServer",
+	"nameOnDisk" : "SecTaskServer",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/SecTaskServer_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "employee.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "employee.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "employee.grpc.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "employee.grpc.pb.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

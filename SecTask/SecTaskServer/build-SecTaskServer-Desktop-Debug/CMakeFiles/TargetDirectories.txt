@@ -1,0 +1,4 @@
+/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/CMakeFiles/SecTaskServer.dir
+/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/ilya/Qt/SecTask/SecTaskServer/build-SecTaskServer-Desktop-Debug/CMakeFiles/SecTaskServer_autogen.dir
