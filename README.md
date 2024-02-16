@@ -1,6 +1,6 @@
 # SecTask
 
-————————————————————————————————————
+————————————————————————————————————  
 # Test.py
 Test for unary RPCs:
 1. InsertEmployee
@@ -19,7 +19,7 @@ Launch from ./Test directory via
 
 Follow the http://localhost:8089/ in your browser  
 Start the test  
-————————————————————————————————————
+————————————————————————————————————  
 #Test.js  
 Test for Server streaming RPC:  
 1. Getlist
@@ -35,7 +35,7 @@ k6 must be installed via
 Official documentation: https://grafana.com/docs/k6/latest/get-started/installation/  
 
 Launch from ./Test directory via  
-    $ k6 run Test.js 
+    $ k6 run Test.js  
 for 1 iteration  
 also try  
     $ k6 run --duration 30s Test.js  
