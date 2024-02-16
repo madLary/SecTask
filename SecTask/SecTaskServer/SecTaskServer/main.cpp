@@ -69,7 +69,7 @@ public:
 
     Status GetList (ServerContext* context, const employee::GetListRequest* getListRequest, ServerWriter<EmployeeReply>* writer) override
     {
-        mu_.lock();
+        //mu_.lock();
 
         QSqlQuery get_list_query(db);
         QSqlQuery get_list_search_query(db);
@@ -114,13 +114,13 @@ public:
             writer->Write(em);
         }
 
-        mu_.unlock();
+        //mu_.unlock();
         return Status::OK;
     }
 
     Status GetPostAndLead (ServerContext* context, const Id* id, PostAndLead* post_and_lead) override
     {
-        mu_.lock();
+        //mu_.lock();
 
         QSqlQuery query(db);
         int index = id->id();
@@ -152,7 +152,7 @@ public:
             post_and_lead->set_lead((query.value(0).toString()).toStdString());
         }
 
-        mu_.unlock();
+        //mu_.unlock();
         return Status::OK;
     }
 
